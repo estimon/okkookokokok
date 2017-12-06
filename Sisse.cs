@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    public class Raha
+    class Sisse
     {
-        public int sisse { get; set; }
-        public int välja { get; set; }
-        
-
+        public int panek { get; set; }
     }
 }

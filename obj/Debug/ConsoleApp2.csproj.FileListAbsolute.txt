@@ -4,3 +4,10 @@ C:\Users\opilane\Documents\GitHub\Tunnitöö\ConsoleApp2\ConsoleApp2\bin\Debug\C
 C:\Users\opilane\Documents\GitHub\Tunnitöö\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csprojResolveAssemblyReference.cache
 C:\Users\opilane\Documents\GitHub\Tunnitöö\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 C:\Users\opilane\Documents\GitHub\Tunnitöö\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\Martin Ploompuu\Documents\GitHub\okkookokokok\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Martin Ploompuu\Documents\GitHub\okkookokokok\bin\Debug\ConsoleApp2.exe
+C:\Users\Martin Ploompuu\Documents\GitHub\okkookokokok\bin\Debug\ConsoleApp2.pdb
+C:\Users\Martin Ploompuu\Documents\GitHub\okkookokokok\obj\Debug\ConsoleApp2.csprojResolveAssemblyReference.cache
+C:\Users\Martin Ploompuu\Documents\GitHub\okkookokokok\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\Martin Ploompuu\Documents\GitHub\okkookokokok\obj\Debug\ConsoleApp2.exe
+C:\Users\Martin Ploompuu\Documents\GitHub\okkookokokok\obj\Debug\ConsoleApp2.pdb
