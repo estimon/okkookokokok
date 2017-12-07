@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace ConsoleApp2
@@ -12,10 +11,12 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+
+
+
+            Start:
             
-            
-                
-                    Start:
+
                     Console.WriteLine("Tere, mida soovite teha: 1 luua konto/2 kontrollida jääki/3 raha väljavõtta/4 raha sissepanna");
                 string valik = Console.ReadLine();
 
@@ -24,16 +25,20 @@ namespace ConsoleApp2
                 {
                     while (true)
                     {
+                    Console.WriteLine("Bush tegi 911 xddd");
+                    Console.ReadLine();
                         Uuskonto konto1 = new Uuskonto();
                         Console.WriteLine("Palun sisestage oma uue konto nimi:");
                         konto1.nimi = Console.ReadLine();
+                    Console.WriteLine("OIIIIIIIIIIIIIIIIIIIIIII mittä nüüt");
+                    Console.ReadLine();
                         Console.WriteLine("Palun sisestage oma uus salasõna:");
                         konto1.pin = Console.ReadLine();
                         konto1.vahendid = 0;
                         Console.WriteLine("Teie uue konto jääk on: " + konto1.vahendid);
                         Console.ReadLine();
 
-                    string text = @"c:\Users\Martin Ploompuu\Desktop\Kasutajad\uus.txt";
+                    string text = @"c:\Users\Opilane\Documents\GitHub\Tunnitöö\ConsoleApp2\ConsoleApp2\Kaust.txt";
                     
                     using (StreamWriter sw = File.CreateText(text))
 
@@ -55,20 +60,48 @@ namespace ConsoleApp2
                         }
                         else if (valik2 == "ei")
                         {
-                            return;
+                        Console.WriteLine("Soovite luue veel ühe konto? (jah/ei)");
+                        Console.ReadLine();                          
+                        if (valik == "jah")
+                        {
+                            Uuskonto konto2 = new Uuskonto();
+                            Console.WriteLine("Palun sisestage oma uue konto nimi:");
+                            konto2.nimi = Console.ReadLine();
+                            Console.WriteLine("Palun sisestage oma uus salasõna:");
+                            konto2.pin = Console.ReadLine();
+                            konto2.vahendid = 0;
+                            Console.WriteLine("Teie uue konto jääk on: " + konto2.vahendid);
+                            Console.ReadLine();
+
+
+                            using (System.IO.StreamWriter file =
+            new System.IO.StreamWriter(@"c:\Users\Opilane\Documents\GitHub\Tunnitöö\ConsoleApp2\ConsoleApp2\Kaust.txt", true))
+                            {
+
+                                file.WriteLine(konto2.nimi);
+                                file.WriteLine(konto2.pin);
+                                file.WriteLine(konto2.vahendid);
+                            }
+                            Console.WriteLine("Kirjutage \"start\", et tagasi algusesse minna");
+                            string pucc = Console.ReadLine();
+                            if (pucc == "start")
+                            {
+                                goto Start;
+                            }
+
+
+                        }
                         }
                     }
 
-
-
-        
+    
                 }
           else if (valik == "2")
             {
                 while (true)
                 {
-                    string line3 = File.ReadLines("uus.txt").Last();
-                    line3 = Console.ReadLine();
+                   
+
                 }
                 
                 
